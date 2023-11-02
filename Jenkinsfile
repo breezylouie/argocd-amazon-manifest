@@ -4,7 +4,7 @@ node {
     env.IMAGE = 'brianmba/amazon'
 
     stage('Clone repository') {
-             git branch: 'main', url: 'https://github.com/brianmba/argocd-amazon-manifest.git'  
+             git branch: 'main', url: 'https://github.com/breezylouie/argocd-amazon-manifest.git'  
     }
 
     stage('Update GIT') {
